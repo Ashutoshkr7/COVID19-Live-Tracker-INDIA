@@ -36,33 +36,33 @@ const StateWise = () => {
           <table className="table table-hover">
             <thead className="thead-dark">
               <tr>
-                <th>States & UT</th>
-                <th>Confirmed Cases Indian</th>
-                <th>Confirmed Cases Foreign</th>
+                <th>State</th>
+                <th>Active Cases</th>
                 <th>Deaths</th>
-                <th>Discharged</th>
-                <th>Total Confirmed</th>
-                {/* <th>Recovered</th>
-                <th>Total Infected</th> */}
+                <th>New Deaths</th>
+                <th>New Infected</th>
+                <th>New Recovered</th>
+                <th>Recovered</th>
+                <th>Total Infected</th>
               </tr>
             </thead>
-            <tbody>
+            {/* <tbody>
               {data.map((curElem, ind) => {
                 console.log(curElem);
                 return (
                   <tr key={ind}>
-                    <th>{curElem.loc}</th>
-                    <td>{curElem.confirmedCasesIndian}</td>
-                    <td>{curElem.confirmedCasesForeign}</td>
-                    <td>{curElem.deaths}</td>
-                    <td>{curElem.discharged}</td>
-                    <td>{curElem.totalConfirmed}</td>
-                    {/* <td>{curElem.recovered}</td>
-                    <td>{curElem.totalInfected}</td> */}
+                    <th>{curElem.region}</th>
+                    <td>{curElem.activeCases}</td>
+                    <td>{curElem.deceased}</td>
+                    <td>{curElem.newDeceased}</td>
+                    <td>{curElem.newInfected}</td>
+                    <td>{curElem.newRecovered}</td>
+                    <td>{curElem.recovered}</td>
+                    <td>{curElem.totalInfected}</td>
                   </tr>
                 );
               })}
-            </tbody>
+            </tbody> */}
           </table>
         </div>
       </div>

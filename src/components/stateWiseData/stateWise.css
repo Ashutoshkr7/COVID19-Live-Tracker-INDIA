@@ -72,14 +72,14 @@ th:hover::after {
   color: aliceblue;
   border: 0.5px solid rgb(12, 12, 12);
 } */
-.table tr td:hover:nth-child(6) {
-  background-color: #a5e1ad;
+.table tr td:hover:nth-child(5) {
+  background-color: #34a042;
   color: aliceblue;
   /* border: 0.5px solid rgb(12, 12, 12); */
 }
 
-.table tr td:hover:nth-child(7) {
-  background-color: #a5e1ad;
+.table tr td:hover:nth-child(4) {
+  background-color: #f55c64;
   color: aliceblue;
   /* border: 0.5px solid rgb(12, 12, 12); */
 }
